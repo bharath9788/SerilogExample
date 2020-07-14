@@ -47,6 +47,8 @@ namespace SerilogExample
 
             app.UseAuthorization();
 
+  
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();

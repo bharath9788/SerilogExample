@@ -19,7 +19,7 @@ namespace SerilogExample.Pages
 
         public void OnGet()
         {
-
+            _logger.LogError("this is test");
         }
     }
 }
